@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1573297502 source:d:\curs c++\proiectegithub\capitolul05\tema5.1.mini_calculator\main.cpp
+	<iostream>
+	"operatii.h"
+
+1573296523 source:d:\curs c++\proiectegithub\capitolul05\tema5.1.mini_calculator\operatii.cpp
+
+1573297602 d:\curs c++\proiectegithub\capitolul05\tema5.1.mini_calculator\operatii.h
+
