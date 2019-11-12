@@ -29,8 +29,18 @@ int main()
         case 1 : cout<<m<<" + "<<p<<" = "<<adunare(m,p)<<endl;break;
         case 2 : cout<<m<<" - "<<p<<" = "<<scadere(m,p)<<endl;break;
         case 3 : cout<<m<<" * "<<p<<" = "<<inmultire(m,p)<<endl;break;
-        case 4 : cout<<m<<" / "<<p<<" = "<<impartire(m,p)<<endl;break;
-        case 5 : cout<<m<<" % "<<p<<" = "<<modulo(m,p)<<endl;break;
+        case 4 : while (p==0)
+                  {
+                      cout<<"Ati introdus 0, impartirea la 0 nu e posibila, introduceti alt p:";
+                      cin>>p;
+                  }
+                 cout<<m<<" / "<<p<<" = "<<impartire(m,p)<<endl;break;
+        case 5 : while (p==0)
+                  {
+                      cout<<"Ati introdus 0, impartirea la 0 nu e posibila, introduceti alt p:";
+                      cin>>p;
+                  }
+                 cout<<m<<" % "<<p<<" = "<<modulo(m,p)<<endl;break;
         default : cout<<"Nu este nicio operatie cu acest numar!"<<endl;
     }
 
